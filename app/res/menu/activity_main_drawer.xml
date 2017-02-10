@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_send_tweets"
+            android:title="Send Tweets" />
+        <item
+            android:id="@+id/nav_view_tweets"
+            android:title="View All Tweets" />
+        <item
+            android:id="@+id/nav_followers"
+            android:title="My Followers" />
+        <item
+            android:id="@+id/nav_search"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_file_upload"
+            android:title="Image Upload" />
+
+    </group>
+
+
+</menu>
