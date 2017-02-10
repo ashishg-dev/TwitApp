@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlite.tweet.FileUploadFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload File to Server"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/filechooser"
+        android:layout_below="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Choose File"
+        />
+
+
+    <GridView
+        android:id="@+id/listView_set"
+        android:layout_width="wrap_content"
+        android:numColumns="auto_fit"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filechooser"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        >
+    </GridView>
+
+<!--    <ImageView
+        android:id="@+id/selectedImage"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filechooser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logout"
+        />
+-->
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rlite.tweet.SendTweetFragment">
+
+<EditText
+    android:id="@+id/editText_message"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="15dp"
+    android:hint="What's in your mind??"
+    android:textAlignment="center"
+    />
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:layout_below="@+id/editText_message"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
